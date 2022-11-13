@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Flipakart]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Flipkart application(failed)">
+    <classes>
+      <class name="com.qa.pomodel.ApplianceTest">
+        <methods>
+          <include name="verifyFlightsLink"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.pomodel.ApplianceTest -->
+      <class name="com.qa.pomodel.HomeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifymobileLink"/>
+        </methods>
+      </class> <!-- com.qa.pomodel.HomeTest -->
+    </classes>
+  </test> <!-- Flipkart application(failed) -->
+</suite> <!-- Failed suite [Flipakart] -->

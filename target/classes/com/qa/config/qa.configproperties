@@ -1,0 +1,17 @@
+
+//##################################
+url= https://www.flipkart.com/
+username=8939746137
+password=Sathya123$
+browser=chrome
+
+
+//########Login Object files#########
+
+user_name=//input[@class='_2IX_2- VJZDxU']
+
+pass_word_name=//input[@type='password']
+
+logintbtn=//button[@class='_2KpZ6l _2HKlqd _3AWRsL']
+
+Flipkart_logo_name=//img[@title='Flipkart']
